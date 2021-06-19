@@ -23,14 +23,14 @@
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" about that horrible thing happening somewhere?
+s: 但你有看到 *那件* 关于一个地方的新闻报道吗？
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: 哈—嗨……
 
 ```
 publish("act2",["party_hunter",1]);
@@ -38,14 +38,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: God I hate the news. It's all sensationalism and clickbait.
+a: 我讨厌现在的新闻。 都只是一堆标题党。
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: 派……派对不错……
 
 ```
 publish("act2",["party_hong","next"]);
@@ -53,13 +53,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: True, but they're just following incentives. The *real* problem is people who click the clickbait.
+s: 对，可是他们也只是骗点击的。那些 *真的* 被骗的才有问题。
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: Who would retweet a terrible news story, and make all their friends feel bad?
+s: 为什么会有人转发那种故事，破坏别人的心情？
 
 ```
 publish("act2",["party_hunter",1]);
@@ -67,7 +67,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: 是啊。
 
 (#act2-preamble-end)
 
@@ -78,14 +78,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" going viral?
+s: 但你有看到最近爆红的 “新闻故事” 吗？
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: 哈—嗨……
 
 ```
 publish("act2",["party_hunter",1]);
@@ -93,22 +93,21 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Yeah, totally fake. Who would fall for that and retweet it?
+a: 有，看就知道是假的。 怎么会有人被骗转发呢？
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
-
+h2: 派………派对不错……
 ```
 publish("act2",["party_hong","next"]);
 publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Seriously dude. Like, hello, open up Google and factcheck first?
+s: 讲真的，喂。你听说过什么叫谷歌一下真假吗？
 
 ```
 publish("act2",["party_hunter",1]);
@@ -116,7 +115,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: 是啊。
 
 (#act2-preamble-end)
 
@@ -127,14 +126,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: Like I was saying, the Meme Industrial Complex exploits cats.
+s: 就像我说的，那些传迷因的都在利用猫。
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: 哈—嗨……
 
 ```
 publish("act2",["party_hunter",1]);
@@ -142,14 +141,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Elaborate on this thesis.
+a: 详细说明一下。
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: 派……排队不错……
 
 ```
 publish("act2",["party_hong","next"]);
@@ -157,13 +156,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Well, I saw someone retweet a GIF of a cat drinking milk yesterday.
+s: 是这样的，我昨天看到有人转发猫喝牛奶的动图。
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: They can't digest that ^crap^! Who would retweet *animal abuse* like that?
+s: 猫不能消化牛奶啊！怎么会有人转发虐待动物？
 
 ```
 publish("act2",["party_hunter",1]);
@@ -171,8 +170,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
-
+a: 是啊。
 (#act2-preamble-end)
 
 
@@ -182,14 +180,14 @@ a: Ugh, I know right?
 publish("act2",["dee",1]);
 ```
 
-s: So yeah they never replied back!
+s: 然后他就没回复我了！
 
 ```
 publish("act2",["dee",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: 哈—嗨……
 
 ```
 publish("act2",["party_hunter",1]);
@@ -197,14 +195,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Even though you both matched each other on Tinder?
+a: 你们在Tinder上配对到彼此的对吧？
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: 派……派对不错……
 
 ```
 publish("act2",["party_hong","next"]);
@@ -229,7 +227,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! What, did they think I was a *serial killer* or something? So paranoid.
+s: 对，搞不懂！我又不是什么 *连环杀人犯* 之类的，怕什么。
 
 ```
 publish("act2",["party_hunter",1]);
@@ -237,7 +235,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: 是啊。
 
 (#act2-preamble-end)
 
@@ -249,9 +247,9 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! Maybe they think hookups can't fill the hole in their heart?
+s: 对，搞不懂！难道他们觉得约炮不能填补心里的空洞？
 
-s: Stop being such a prude! Open your mind, then open your legs!
+s: 别那么大惊小怪！思想开放点，腿张大一点！
 
 ```
 publish("act2",["party_hunter",1]);
@@ -259,7 +257,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: 是啊。
 
 (#act2-preamble-end)
 
@@ -271,7 +269,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! They weren't that hot, but they would have been a nice catch!
+s: 对，搞不懂！他没那么 ^SEXY^，但至少能抓到也不错啊！
 
 ```
 publish("act2",["party_hunter",1]);
@@ -279,7 +277,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Gotta Catch 'Em All!™
+a: 生殖器官我来啦！™
 
 (#act2-preamble-end)
 
@@ -302,11 +300,11 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 n: ROUND TWO: *FIGHT!*
 
-[Oh no they all hate us!](#act2a_social)
+[哦不他们都讨厌我们！](#act2a_social)
 
-[Were you *ogling* the redhead?](#act2a_perv)
+[你瞪着那个红头的干嘛？](#act2a_perv)
 
-[Hey, let's talk about the meaning of life.](#act2a_meaning)
+[嘿，来谈一下生命的意义把。](#act2a_meaning)
 
 # act2a_social
 
