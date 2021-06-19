@@ -236,7 +236,7 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: 呃，谢谢你提供的来源可是--
+h: 呃，谢谢你提供来源可是--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -270,7 +270,7 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: 快点拿你的笔记本电脑做点什么啊！
+b: 快点拿你的笔记本电脑做点什么！
 
 `hong({eyes:"0_annoyed"})`
 
@@ -314,7 +314,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: 那些研究有被重现过--
+h: 那些研究有被验证过--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
@@ -594,14 +594,14 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: 算了， 脸书太够力了。我需要一些比较冷静，比较没有焦虑的。
+h: 算了， 脸书太压力了。我需要一些比较冷静，比较没有焦虑的。
 `hong({eyes:"neutral"});`
 
 h: 推特有什么？
 
 `bb({eyes:"look"});`
 
-[哦不，你看那个很惨的新闻！](#act1d_news)
+[哦不，你看那个新闻内容好可怕！](#act1d_news)
 
 [哦不，那一贴是在偷偷说 *我们* 吗？](#act1d_subtweet)
 
@@ -615,14 +615,14 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: 天啊，感觉这个世界要毁灭了，对不对？
+b: 天啊，你会感觉这个世界要毁灭了对吧？
 
 ```
 bb({eyes:"pained2"});
 hong({mouth:"sad", eyes:"sad"});
 ```
 
-b: 感觉一切都快没了，我们每个人都要死了却无能为力。
+b: 感觉一切都快没了，我们每个人都面临死亡却无能为力。
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -717,7 +717,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: 好————， 我去看 Snapchat。
+h: 好————哦， 我去看 Snapchat。
 
 (#act1e)
 
@@ -750,7 +750,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: 好————， 我去看 Snapchat。
+h: 好————哦， 我去看 Snapchat。
 
 (#act1e)
 
@@ -770,7 +770,7 @@ h: 欸，这是昨天派对的照片。原来是 *这* 样的啊。
 
 `hong({mouth:"sad", eyes:"annoyed"});`
 
-h: 哇，人真的多到我的焦虑会受不了。
+h: 哇，人真的多到我会受不了的。
 
 h: 我不应该接受邀请的。
 
@@ -835,7 +835,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 你提供过人类踩踏事故吗？
+b: 你听说过人类踩踏事故吗？
 
 ```
 bb({body:"fear", mouth:"small", eyes:"narrow"});
@@ -851,7 +851,7 @@ hong({mouth:"shock"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 你要那种事发生在我们吗！！-
+b: 你要那种事发生在我们身上吗！！-
 
 ```
 bb({body:"scream"});
@@ -874,7 +874,7 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: 够了够了我不会改的啦！靠！
+h: 够了够了我改成拒绝就是了！靠！
 (#act1f)
 
 # act1e_said_no
@@ -1032,7 +1032,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 你想要掰弯你的脊椎骨吗！？别再低头看手机了！
+b: 你想要掰弯你的脊椎骨吗！？别看手机了，看着我！
 
 ```
 bb({body:"meta"});
@@ -1133,7 +1133,7 @@ b: 啥，那个约炮app？
 
 `hong({eyes:"annoyed"})`
 
-h: 这个不是约炮app啦，我只是用来认识新朋--
+h: 不是约炮app啦，我只是用来认识新朋--
 
 `bb({eyes:"narrow"})`
 
@@ -1151,14 +1151,14 @@ bb({eyes:"narrow_eyebrow"});
 hong({eyes:"sad", mouth:"anger"})
 ```
 
-h: 我拜托你别搞砸--
+h: 我拜托你别再搞砸--
 
 ```
 bb({body:"panic"});
 Game.OVERRIDE_TEXT_SPEED = 2.0;
 ```
 
-b: *危险 危险 危险 危险 危险 危险 危险*
+b: *危险 危险 危险 危险 危险 危险*
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"})`
 
@@ -1245,7 +1245,7 @@ bb({eyes:"pretty"});
 Game.FORCE_TEXT_DURATION = 2300;
 ```
 
-b: ♫ 大腿 ^屁屁^, 性感大奶-
+b: ♫ 大腿 ^屁屁^, ^性感^ 大 ^奶^-
 
 (...500)
 
@@ -1263,7 +1263,7 @@ bb({eyes:"smile", mouth:"smile"});
 Game.FORCE_TEXT_DURATION = 1000;
 ```
 
-b: ♫ 变态-梦! 我要抓-
+b: ♫ ^变态^ -梦! 我要抓-
 
 ```
 Game.FORCE_CANT_SKIP = false;
@@ -1294,7 +1294,7 @@ b: 他会把你困在水井里逼你吃白面包直到你肥到他们把你的�
 {{/if}}
 
 {{if _.parasite}}
-b: 他们把你绑在一个定时炸弹然后说 "你应该更有贡献的你这个寄生虫"
+b: 他们把你绑在一个定时炸弹然后说 "你应该作更多贡献的你这个寄生虫"
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
@@ -1343,7 +1343,7 @@ h:
 {{if _.hookuphole}}"我们会孤零零的死"... {{/if}}
 {{if _.serialkiller}}"他是连环杀人犯"... {{/if}}
 {{if _.catmilk}}"猫不能消化牛奶"... {{/if}}
-{{if _.pokemon}}那个 ^垃圾的^ 歌词改篇... {{/if}}
+{{if _.pokemon}}那个垃圾歌词改篇... {{/if}}
 
 h: 我只想好好的活下去。
 
@@ -1450,14 +1450,14 @@ hong({body:"putaway"});
 sfx("rustle");
 ```
 
-h: *你不能操控我。*
+h: *你控制不了我。*
 
 ```
 sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: 现在请^TM^让我安静一个人吃我的三明治。
+h: 现在请 ^TM^ 让我安静一个人吃我的三明治。
 
 `hong({body:"2_sammich_eat"});`
 
@@ -1601,7 +1601,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 惩罚你的手机！摧毁掉它！杀了它！
+b: 惩罚你的手机！摧毁掉它！杀它！
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1610,7 +1610,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: 杀了它杀了它杀了它杀了它杀了它杀了它杀了它杀了它杀了它--
+b: 杀它杀它杀它杀它杀它杀它杀它杀它杀它--
 
 (#act1j)
 
@@ -1635,7 +1635,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "flight";
 ```
 
-b: 缩成球哭缩成球哭缩成球哭缩成球哭缩成球哭缩成球哭缩成球哭缩成球哭-- 
+b: 缩成球哭缩成球哭缩成球哭缩成球哭缩成球哭-- 
 
 (#act1j)
 
