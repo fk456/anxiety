@@ -310,15 +310,15 @@ n: ROUND TWO: *FIGHT!*
 
 `bb({eyes:"sad"})`
 
-b: We're bringing down the mood of this party by being such a sad lump!
+b: 我们两个爱哭鬼在这里只会让派对越来越无聊！
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: We're killing the good vibes! We're committing first-degree vibe-murder!
+b: 我们在破坏气氛！我们犯了第一级气氛谋杀罪！
 
 `bb({eyes:"normal", body:"normal"})`
 
-b: Human, we have to leave *now* before--
+b: 人类，我们 *现在* 就得离开否则--
 
 ```
 _.a2_first_danger = 'social';
@@ -331,15 +331,15 @@ _.a2_attack_1 = "alone";
 
 `bb({eyes:"suspect"})`
 
-b: They're more attractive than us, which means if we even *look* at them, then--
+b: 他比我们吸引人，所以如果我们只是 *瞄* 他一样，那--
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: WE'RE CREEPS
+b: *我们就是怪胎*
 
 `bb({body:"normal"})`
 
-b: We're creepy, evil, bad bad bad terrible terrible perv--
+b: 我们又恶心，又邪恶，又是坏坏糟糕糟糕坏坏的变--
 
 ```
 _.a2_first_danger = 'perv';
@@ -352,31 +352,31 @@ _.a2_attack_1 = "bad";
 
 `bb({body:"one_up", eyes:"normal_r"})`
 
-b: At the end of it all, what can we possibly do that really matters? 
+b: 在一切的最后，我们能做什么有什么重要性吗？ 
 
 `bb({body:"normal", eyes:"sad"})`
 
-b: Contribute to humanity? All great works decay the way of Ozymandias. Love? Death will always do it part.
+b: 为人类贡献？所有美好的也会像拉美西斯二世一样腐烂。爱？死亡永远是一部分。
 
 `bb({eyes:"sad_r"})`
 
-b: And how much death there is! *We* will die. *Our loved ones* will die.
+b: 看看死亡有多么常见！*我们* 会死。 *我们爱的* 也会死。
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Heck, the Second Law of Thermodynamics means even our *universe* will die!
+b: 靠，连热力学第二定律也说我们的 *宇宙* 会死！
 
 `bb({eyes:"suspect", body:"normal"})`
 
-b: Oh, "death makes us appreciate life"? That's like saying slavery is good because it makes us appreciate freedom!
+b: 噢， “死亡让我们珍惜生命”？难道奴隶制也很好因为它让我们珍惜自由么？
 
 `bb({body:"one_up"})`
 
-b: Oh, "you need to make your own meaning"? That's what cultists and conspiracy theorists do!
+b: 噢，“你要让自己有意义”？那些都是邪教徒和阴谋论者做的事！
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Life has no meaning, death has no meaning, even *meaning* has no meaning! What is a mortal soul supposed to--
+b: 生命没有意义，死亡没有意义，就连 “意义” 本身也没有意义！我们这些凡人到底该怎么--
 
 ```
 _.a2_first_danger = 'meaning';
@@ -393,7 +393,7 @@ b: ...
 
 `bb({eyes:"suspect"})`
 
-b: Um... can you hear me, human?
+b: 呃……你听到吗，人类？
 
 `bb({eyes:"normal", MOUTH_LOCK:true})`
 
@@ -401,23 +401,23 @@ b: ...
 
 `bb({eyes:"shock", mouth:"small_talk", body:"chest", MOUTH_LOCK:true})`
 
-b: *GASP*
+b: *喘*
 
 `bb({mouth:"small_talk"})`
 
-b: I MUST WARN YOU ABOUT...
+b: *我必须警告你……*
 
-[*More* of the same danger!](#act2b_louder)
+[*更多* 一样的危险！](#act2b_louder)
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2b_different_social)
+[*另一个* 社交危险！](#act2b_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2b_different_moral)
+[*另一个* 道德危险！](#act2b_different_moral)
 {{/if}}
 
-[You're ignoring danger! That's dangerous!](#act2b_ignore)
+[你在无视危险！这样很危险！](#act2b_ignore)
 
 # act2b_louder
 
@@ -439,13 +439,13 @@ b: I MUST WARN YOU ABOUT...
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: EMOTIONS ARE CONTAGIOUS! SO IF YOU DON'T LEAVE YOU'LL INFECT EVERYONE WITH YOUR MENTAL ILLNESS! 
+b: *情感是会传染的！你如果不马上你开很快全部人就跟你一样精神病了！* 
 
-b: You'll create a deadly outbreak of SAD LUMP SYNDROME
+b: 你会造成一个 *爱哭鬼症* 病毒爆发！
 
 `bb({eyes:"suspect", body:"normal", mouth:"normal"})`
 
-b: We need to get out of here and quarantine ourselves forever in a small room with Netflix and food delivery!
+b: 我们需要离开这里然后把自己永远关在房间看Netflix吃外卖！
 
 ```
 _.a2_second_danger = 'netflix';
@@ -459,7 +459,7 @@ _.a2_hoodie_callback = "a quarantine";
 
 `bb({eyes:"suspect", body:"two_up", mouth:"normal"})`
 
-b: DON'T BE A CREEP. IT'S AGAINST THE LAW!
+b: *别当个怪胎，犯法的！*
 
 `bb({eyes:"judge", body:"judge_1", mouth:"normal"})`
 
@@ -484,11 +484,11 @@ sfx("gravel");
 
 (...501)
 
-b: Creep Law, Section 74.5: (1) Any Person who checks out (a) those muscular shoulders (b) that bubble booty (2) shall be hereby known as
+b: 怪胎法，第74.5条： (1) 只要符合这些条件的 (a) 大肌肌肩膀 (b) 大屁屁 (2) 将被识别为
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: "A BIG DISGUSTING TRASH PERVERT"
+b: “大恶心垃圾变态”！！！！！
 
 ```
 _.a2_second_danger = 'law';
@@ -502,23 +502,23 @@ _.a2_hoodie_callback = "the law";
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: Actually, even if you find a noble purpose in life, you can *still* mess everything up!
+b: 即使你在生活中找到活下去的意义，你 *仍然* 有可能搞砸！
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Alfred Nobel wanted world peace and for cultures to understand each other. So he decided to make travel easier.
+b: 阿尔弗雷德·诺贝尔 曾希望世界和平和各个文化了解彼此，所以他决定让环游世界更加容易。
 
 `bb({eyes:"normal_r"})`
 
-b: So he needed a way to cheaply create train tunnels. So he invented a new material called "dynamite"...
+b: 所以他就需要能速成火车通道的方法，所以他就发明了叫 “炸药” 的材料……
 
 `bb({body:"one_up", eyes:"normal"})`
 
-b: which was used in World War I to KILL MILLIONS OF PEOPLE
+b: *结果炸药就被用在第一世界大战残害了上百万的性命*
 
 `bb({body:"two_up", eyes:"shock"})`
 
-b: IT'S THE BUTTERFLY EFFECT, HUMAN! HOW MANY PEOPLE ARE YOU ACCIDENTALLY KILLING RIGHT NOW
+b: *这就是蝴蝶效应，人类！！你知道你现在不小心害死了多少人吗—*
 
 ```
 _.a2_second_danger = 'butterfly';
@@ -534,19 +534,19 @@ _.a2_hoodie_callback = "World War I";
 
 `bb({eyes:"normal_r", body:"point", mouth:"normal"})`
 
-b: Actually, you know what's worse than no-one liking you? *Everyone* liking you.
+b: 你知道有什么比 *没人* 爱你还糟糕吗？*大家* 都爱你。
 
 `bb({body:"one_up", eyes:"suspect", mouth:"normal"})`
 
-b: That is, becoming one of *these* pleasure-chasing party animals.
+b: 就是成为 *这些* 渴望乐趣的派对禽兽。浅薄的
 
 `bb({body:"normal", mouth:"small"})`
 
-b: A shallow life with shallow friends who only know the shallow you!
+b: 与那些只认得浅薄的你的浅薄的朋友过着浅薄的生活！
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: Human, we need to run away from these pleasure-zombies before they turn us into one of them!
+b: 人类，不快点逃出去的话这些欢乐僵尸就要把我们变得和他们一样了！
 
 ```
 _.a2_second_danger = 'zombies';
@@ -562,19 +562,19 @@ _.a2_hoodie_callback = "zombies";
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: People are dying in famines and genocides *right now* and we're just partying!
+b: 人们 *现在* 正在饥荒与灭绝中逝世而我们现在在派对！
 
 `bb({body:"point", eyes:"closed", mouth:"small"})`
 
-b: A wise person once said, "the only thing necessary for the triumph of evil is for good folks to do nothing."
+b: 一位智者说过， "只要正义袖手旁观，邪恶就有胜算。"
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: WE'RE DOING NOTHING.
+b: *我们正在袖手旁观。*
 
 `bb({mouth:"small"})`
 
-b: BY PARTYING, WE'RE HELPING *HITLER*.
+b: 我们开派对就等于在帮助 ^希特^勒.
 
 ```
 _.a2_second_danger = 'hitler';
@@ -590,15 +590,15 @@ _.a2_hoodie_callback = "Hitler";
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: You think you're safe just because you took the batteries out of the carbon monoxide detector?
+b: 你以为把一氧化碳检测仪的电池拿出来就安全了吗？
 
 `bb({eyes:"suspect_r"})`
 
-b: You won't even smell the poison! You'll just get sleepy and then you'll--
+b: 你根本嗅不到毒气！你会有点困然后就会--
 
 `bb({body:"scream_c_1"})`
 
-b: DIEEEEEEEEEEEEEEEEEE
+b: 死！！！！！
 
 ```
 _.a2_second_danger = 'ignore';
@@ -619,29 +619,29 @@ b: ...
 
 `bb({eyes:"happy", mouth:"smile", body:"chest"})`
 
-b: Oh thank goodness human, I think you can hear me again!
+b: 噢谢天谢地人类，你又听到我了！
 
 `bb({eyes:"closed", body:"point"})`
 
-b: I SHALL WARN YOU ABOUT...
+b: *所以我现在要警告你……*
 
 {{if _.a2_first_choice=="louder"}}
-[*Even more* of the same danger!](#act2c_louder)
+[*又更多* 一样的危险！](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_choice!="louder"}}
-[*More* of the same danger!](#act2c_louder)
+[*更多* 一样的危险！](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2c_different_social)
+[*另一个* 社交危险！](#act2c_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2c_different_moral)
+[*另一个* 道德危险！](#act2c_different_moral)
 {{/if}}
 
-[Did you check that punch before drinking?](#act2c_punch)
+[你喝之前有确认过那杯酒的成分吗?](#act2c_punch)
 
 #act2c_louder
 
@@ -673,15 +673,15 @@ b: I SHALL WARN YOU ABOUT...
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: Actually, Netflix & food delivery isn't quarantined enough! We'd still infect the delivery person!
+b: 其实 Netflix和外卖关的不够紧！我们还会传染到送外卖的！
 
 `bb({body:"one_up", mouth:"small"})`
 
-b: We need to move to the Canadian Yukon territories, and have our food delivered by drone!
+b: 我们需要搬到加拿大育空地区，然后由无人机送外卖！
 
 `bb({body:"two_up", mouth:"normal"})`
 
-b: And then they'd have to sterilize the drone to rid it of our SAD LUMP GERMS
+b: 然后让门就需要为无人机消毒因为上面有 *爱哭鬼病毒*
 
 `_.a2_attack_3 = "alone";`
 
@@ -714,13 +714,13 @@ sfx("gravel");
 
 (...501)
 
-b: The BIG DISGUSTING TRASH PERVERT shall be sentenced to 72 hours in one of those medieval public-humiliation devices
+b: “大恶心垃圾变态” 应该被锁在那些中世纪用来公开羞辱的设备
 
-b: unless they're secretly *into* that sort of thing
+b: 除非他们对那种东西 *感兴趣*……
 
 `bb({body:"scream_a_1"})`
 
-b: because they're a BIG DISGUSTING TRASH PERVERT
+b: *因为他们就是个 “大恶心垃圾变态”*
 
 `_.a2_attack_3 = "bad";`
 
@@ -732,19 +732,19 @@ b: because they're a BIG DISGUSTING TRASH PERVERT
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: BUTTERFLY EFFECT! You're using a non-biodegradable plastic cup?
+b: 蝴蝶效应！你用那些不可生物降解的塑料杯？
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: BAM, A LANDFILL LEAKS POISON AND KILLS A KID
+b: 嗒哒！有一个小孩子被垃圾场的塑料堵死啦！
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: You're sweating and your heart's pounding?
+b: 你满头大汗而且心跳很快？
 
 `bb({body:"scream_a_1"})`
 
-b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
+b: 嗒哒！你把健康系统搞破产还害死百万个人啦！
 
 `_.a2_attack_3 = "bad";`
 
@@ -756,15 +756,15 @@ b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
 
 `bb({body:"normal", mouth:"small", eyes:"angry"})`
 
-b: These pleasure-zombies will stumble towards you mumbling,
+b: 这些欢乐僵尸会朝向你爬行说着，
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: LIIIIIKES. LIIIIIIIIIIKES.
+b: “赞我的头像……快点赞我的头像……”
 
 `bb({body:"scream_a_1"})`
 
-b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS THOT!
+b: 然后他们就会咬你的手，把你变成一个 and turn you into a BRAINLESS BRO and/or THOUGHTLESS THOT!
 
 `_.a2_attack_3 = "bad";`
 
